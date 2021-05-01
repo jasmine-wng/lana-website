@@ -796,6 +796,9 @@
                 -o-animation: hero-thumb-animation 2s linear infinite alternate;
                 animation: hero-thumb-animation 2s linear infinite alternate;
                 &.hero-2-thumb{
+                  position: absolute;
+                  left: -100px;
+                  bottom: -23px;
                     @media #{$sm}{
                         width: 100%;
                     }
